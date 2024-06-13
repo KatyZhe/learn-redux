@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: white;
+  font-family: Arial, sans-serif;
+}
+.container {
+  text-align: center;
+}
+.number {
+  font-size: 100px;
+  margin-bottom: 20px;
+}
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.button {
+  padding: 15px 30px;
+  background-color: green;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+.button:hover {
+  background-color: darkgreen;
+}
